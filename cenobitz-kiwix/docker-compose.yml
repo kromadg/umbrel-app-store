@@ -11,4 +11,4 @@ services:
     volumes:
       - ${UMBREL_ROOT}/data/storage/kiwix:/data
     command: >
-      /data/*.zim
+      /data/*.zim -k
